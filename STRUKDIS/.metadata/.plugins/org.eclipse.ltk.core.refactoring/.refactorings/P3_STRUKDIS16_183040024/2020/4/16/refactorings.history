@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;P5_STRUKDIS16_183040024/src/permasalahan2&apos;&#x0D;&#x0A;- Original project: &apos;P3_STRUKDIS16_183040024&apos;&#x0D;&#x0A;- Destination element: &apos;P5_STRUKDIS16_183040024/src/permasalahan2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     stack.Operasi.java&#x0D;&#x0A;     stack.KelasUtama.java" description="Copy compilation units" destination="=P5_STRUKDIS16_183040024/src&lt;permasalahan2" element1="/src&lt;stack{Operasi.java" element2="/src&lt;stack{KelasUtama.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1586740375102" units="2" version="1.0"/>
+</session>

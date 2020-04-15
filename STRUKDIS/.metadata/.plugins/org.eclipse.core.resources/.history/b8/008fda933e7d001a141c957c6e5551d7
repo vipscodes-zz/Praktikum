@@ -1,0 +1,16 @@
+package permasalahan2test;
+
+import java.util.Scanner;
+
+public class OperasiTest {
+	public static void main(String[] args) {
+        System.out.println("Masukkan notasi infix: ");
+        Scanner sc = new Scanner(System.in);
+        String infix = sc.next();
+        Operasi konversi = new Operasi(infix);
+        System.out.println("Hasil Konversi : ");
+        System.out.println(konversi.toPostfix());
+        
+    }
+	
+}

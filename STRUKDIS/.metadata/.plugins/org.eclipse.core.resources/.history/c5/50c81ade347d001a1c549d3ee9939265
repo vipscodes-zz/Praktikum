@@ -1,0 +1,13 @@
+package permasalahan2;
+
+import java.util.Scanner;
+
+public class OperasiTest {
+	public static void main(String[] args) {
+        System.out.println("Type an expression written in Infix notation: ");
+        Scanner input = new Scanner(System.in);
+        String expression = input.next();
+        Operasi convert = new Operasi(expression);
+        System.out.println("This expression writtien in Postfix notation is: \n" + convert.infixToPostfix());
+    }
+}

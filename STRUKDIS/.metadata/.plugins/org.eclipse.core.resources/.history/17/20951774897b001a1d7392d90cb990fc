@@ -1,0 +1,9 @@
+package queue;
+
+public class Operasi {
+	
+	
+	public void enqueue(int data) {
+		
+	}
+}

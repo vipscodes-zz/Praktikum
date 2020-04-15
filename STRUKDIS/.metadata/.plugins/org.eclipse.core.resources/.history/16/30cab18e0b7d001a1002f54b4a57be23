@@ -1,0 +1,7 @@
+package permasalahan1;
+
+public class Mahasiswa {
+	private String nrp;
+	private String nama;
+	private char jenisKelamin;
+}

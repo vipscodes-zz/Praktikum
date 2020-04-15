@@ -1,0 +1,61 @@
+package permasalahan2test;
+
+public class Operasi {
+	private Stack stack = new Stack();
+	private String input;
+	
+	public Operasi(String input) {
+		this.input = input;
+	}
+	public String toPostfix() {
+		String output = "";
+		Character dataTop;
+		for (int index = 0; index < input.length(); ++index) {
+			char ch = input.charAt(index);
+			switch(ch) {
+				case '(': 
+						  stack.push('('); break;
+				case ')': 
+						  dataTop = (Character) stack.top();
+						  while (!(dataTop.equals('(')) && !(stack.isEmpty())) {
+			                    stack.pop();
+			                    output += dataTop.charValue();
+			                    if (!stack.isEmpty()) {
+			                        dataTop = (Character) stack.top();
+			              		}
+			              		stack.pop();
+						  }
+				case '+':
+				case '-': 
+	                	  if (stack.isEmpty()) {
+	                		  stack.push(ch);
+	                	  } else {
+	                		  dataTop = (Character) stack.top();
+	                		  while (!(stack.isEmpty() || dataTop.equals(('(')) ||  dataTop.equals((')')))) {
+	                			  dataTop = (char) stack.pop();
+	                			  output += dataTop.charValue();
+	                		  }
+	                		  stack.push(ch);
+	                	  }
+	                	  break;
+				case '*':
+				case '/':
+						  if (stack.isEmpty()) {
+							  stack.push(ch);
+						  } else {
+							  dataTop = (Character) stack.top();
+							  while (!dataTop.equals(('(')) && !dataTop.equals(('+')) && !dataTop.equals(('-')) && !stack.isEmpty()) {
+								  dataTop = (char) stack.pop(); 
+								  output += dataTop.charValue();
+							  }
+							  stack.push(ch);
+						  
+						  } else {
+							  output += ch;
+						  }
+		    }
+		}
+		return "";
+	}
+	
+}

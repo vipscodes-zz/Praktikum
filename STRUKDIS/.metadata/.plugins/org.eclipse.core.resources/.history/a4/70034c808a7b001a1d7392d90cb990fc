@@ -1,0 +1,15 @@
+package queue;
+
+
+
+public class Operasi {
+	
+	private Node FRONT;
+	private Node REAR;
+	
+	public void enqueue(int data) {
+		Node newNode = new Node(data);
+	}
+	
+	
+}

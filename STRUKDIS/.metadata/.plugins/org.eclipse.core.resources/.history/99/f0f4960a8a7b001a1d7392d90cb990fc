@@ -1,0 +1,16 @@
+package queue;
+
+public class Operasi {
+	
+	
+	public void enqueue(int data) {
+		Node newNode = new Node(data);
+	}
+	
+	public boolean isEmpty() {
+		if(FRONT == null) {
+			return true;
+		}
+		return false;
+	}
+}

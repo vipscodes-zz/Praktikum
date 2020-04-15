@@ -1,0 +1,62 @@
+package permasalahan2simple;
+
+
+public class Operasi {
+	private Stack stack = new Stack();
+	private String input;
+    
+	public Operasi(String input) {
+    	this.input = input;
+    }
+
+	public String konversi() {
+        String postfix = "";
+        Character top;
+        for (int i = 0; i < input.length(); i++) {
+        	char ch = input.charAt(i);
+        	if(ch == '(' || ch == ')' || ch == '+' || ch == '*' || ch == '/' || ch == '-') {
+        		if (stack.isEmpty()) {
+                    stack.push(ch);
+                }
+        		
+        		
+        		// Jika operator * atau /
+                else if (ch == '*' || ch == '/') {
+                        top = stack.top();
+                        while (!top.equals(('(')) && !top.equals(('+')) && !top.equals(('-')) && !stack.isEmpty()) {
+                        	top = (char) stack.pop(); 
+                        	postfix += top.charValue();
+                        }
+                        stack.push(ch);
+                    
+                }
+                
+        		// Jika operator + atau -
+                else if (ch == '+' || ch == '-') {
+                	top = stack.top();
+                    while (!(stack.isEmpty() || top.equals(('(')) || top.equals((')')))) {
+                    	top = (char) stack.pop();
+                    	postfix += top.charValue();
+                    }
+                    stack.push(ch);
+                } 
+                
+        	// Jika operand
+        	} else {
+        		postfix += ch;
+        	}
+        	
+		}
+        // Jika sudah semua soal sudah dibaca, pop semua isi stack dan push ke postfix sesuai dengan urutannya
+        while (!stack.isEmpty()) {
+            top = stack.top();
+            if (!top.equals(('('))) {
+                stack.pop();
+                postfix += top.charValue();
+            }
+        }
+        return postfix;
+	}
+	
+	
+}

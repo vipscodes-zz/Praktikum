@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;KelasUtama.java&apos; to &apos;P4_STRUKDIS16_183040024/src/queue&apos;&#x0D;&#x0A;- Original project: &apos;P3_STRUKDIS16_183040024&apos;&#x0D;&#x0A;- Destination element: &apos;P4_STRUKDIS16_183040024/src/queue&apos;&#x0D;&#x0A;- Original element: &apos;stack.KelasUtama.java&apos;" description="Copy compilation unit" destination="=P4_STRUKDIS16_183040024/src&lt;queue" element1="/src&lt;stack{KelasUtama.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1586565386646" units="1" version="1.0"/>
+</session>

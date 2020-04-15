@@ -1,0 +1,46 @@
+package permasalahan1;
+public class List {
+	private Node HEAD;
+	private Mahasiswa mahasiswa;
+	
+	public boolean isEmpty() {
+		if(HEAD == null) {
+			return true;
+		}
+		return false;
+	}
+	
+	public void displayElement() {
+		Node curNode = HEAD;
+		if (curNode == null) {
+			System.out.println("List kosong");
+		}
+		while (curNode != null) {
+			System.out.print(curNode.getData() + " ");
+			curNode = curNode.getNext();
+		}
+	}
+	
+	public void addMiddle(Mahasiswa data, int urutan) {
+		Node newNode = new Node(data);
+		Node posNode = null;
+		Node curNode = null;
+		if(isEmpty()) {
+			HEAD = newNode;
+		} 
+		else if(newNode.getData().getJenisKelamin() == 'P'){
+			curNode = HEAD;
+			int counter = 1;
+			while(curNode != null && curNode.getData().getJenisKelamin() == 'P') {
+				posNode = curNode;
+				curNode = curNode.getNext();
+				counter++;
+			}
+			posNode.setNext(newNode);
+			newNode.setNext(curNode);
+		} else {
+			
+		}
+	}
+	
+}

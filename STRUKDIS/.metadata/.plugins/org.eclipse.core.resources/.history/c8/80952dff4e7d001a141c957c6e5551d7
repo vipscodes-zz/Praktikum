@@ -1,0 +1,23 @@
+package permasalahan2m;
+
+import java.util.Scanner;
+
+public class OperasiTest {
+
+	public static void main(String[] args) {
+		int x = 0;
+		while(x != 3) {
+			
+			
+			System.out.println("Masukkan notasi infix: ");
+	        Scanner sc = new Scanner(System.in);
+	        String input = sc.next();
+	        Operasi operasi = new Operasi(input);
+	        System.out.println("Hasil Konversi : ");
+	        System.out.println(operasi.konversi());
+		}
+		
+        
+    }
+	
+}
