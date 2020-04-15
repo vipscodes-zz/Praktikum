@@ -1,0 +1,11 @@
+package panels;
+
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class KalkulatorPanel extends JPanel{
+	JTextField tfAngka1;
+	JTextField tfAngka2;
+	JButton btnKalkulasi;
+	JLabel = labelHasil;
+}

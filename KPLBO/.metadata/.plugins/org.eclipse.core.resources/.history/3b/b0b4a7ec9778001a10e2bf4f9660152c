@@ -1,0 +1,13 @@
+package latihan1;
+
+public class Pemain {
+	private String nama;
+	private int noPunggung;
+	private int gaji; //perminggu
+	
+	public Pemain() {
+
+	}
+	
+	
+}

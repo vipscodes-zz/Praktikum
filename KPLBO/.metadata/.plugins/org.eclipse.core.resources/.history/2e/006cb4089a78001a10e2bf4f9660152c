@@ -1,0 +1,14 @@
+package latihan1;
+
+public class PertandinganMain {
+	public static void main(String[] args) {
+		Tim tim1 = new Tim("Persib");
+		Tim tim2 = new Tim("Arema");
+		Tim tim3 = new Tim("Persikab");
+		Tim tim4 = new Tim("Semen Padang");
+		Tim tim5 = new Tim("Persipura");
+		
+		tim1.
+
+	}
+}

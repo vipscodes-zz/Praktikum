@@ -1,0 +1,50 @@
+package frames;
+
+import javax.swing.JFrame;
+
+import panels.KalkulatorPanel;
+
+public class KalkulatorFrame {
+	public KalkulatorFrame() {
+		KalkulatorPanel kp = new KalkulatorPanel();
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setVisible(true);
+		setTitle("Kalkulator");
+		setLocationRelativeTo(null);
+		setSize(500, 200);
+		
+		add(kp);
+	}
+
+	private void setTitle(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void setLocationRelativeTo(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void setSize(int i, int j) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void add(KalkulatorPanel kp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void setVisible(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void setDefaultCloseOperation(int exitOnClose) {
+		
+	}
+	
+	
+}

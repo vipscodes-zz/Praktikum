@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+E:\KULIAH\KPLBO\.metadata\.plugins\org.eclipse.jdt.core
+2891705925.index
+3104941354.index
+1577845693.index
+1851828561.index
+2474980340.index
+2842528100.index
+3555087655.index
+1930169079.index
+3537347749.index
+1641209356.index
+1956156771.index
+1262897362.index

@@ -1,0 +1,19 @@
+package latihan1;
+
+public class Pemain {
+	private String nama;
+	private int noPunggung;
+	private int gaji; //perminggu
+	
+	public Pemain() {
+		this("");
+	}
+	
+	public Pemain(String nama) {
+		this(nama, 0);
+	}
+	
+	public Pemain(String nama) {
+		this(nama, 0);
+	}
+}

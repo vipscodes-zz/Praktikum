@@ -1,0 +1,20 @@
+package panels;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class KalkulatorPanel extends JPanel{
+	JTextField tfAngka1;
+	JTextField tfAngka2;
+	JButton btnKalkulasi;
+	JLabel labelHasil;
+	
+	public KalkulatorPanel() {
+		tfAngka1 = new JTextField();
+		tfAngka2 = new JTextField();
+		btnKalkulasi = new JButton("Kalkulasi");
+		labelHasil = new JLabel("0");
+	}
+}

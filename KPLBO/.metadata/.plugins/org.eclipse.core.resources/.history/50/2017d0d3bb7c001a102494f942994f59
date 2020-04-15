@@ -1,0 +1,9 @@
+package latihan3;
+
+public class GajiPelatihMain {
+	public static void main(String[] args) {
+		GajiPelatih gpel = new GajiPelatih(2000000, 10000000);
+		System.out.println("Gaji Pelatih : " + gpel.hitungGaji());
+		
+	}
+}

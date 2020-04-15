@@ -1,0 +1,12 @@
+package latihan1;
+
+public abstract class KartuElektronik implements Kartu {
+	protected String kodeBank;
+	protected String PIN;
+	
+	public KartuElektronik(String kodeBank, String PIN) {
+		this.kodeBank = kodeBank;
+		this.PIN = encode(PIN);
+	}
+
+}

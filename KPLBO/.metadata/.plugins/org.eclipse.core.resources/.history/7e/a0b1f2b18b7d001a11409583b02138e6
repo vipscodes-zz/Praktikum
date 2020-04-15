@@ -1,0 +1,15 @@
+package latihan3;
+
+public class MesinATM {
+	private Kartu kartu;
+	private boolean otentikasi = false;
+	
+	public void cekPIN(Kartu kartu, String pin) {
+		if(validasiKartu(kartu)) {
+			if(kartu.otentikasi(pin)) {
+				otentikasi = true;
+				this.kartu = kartu;
+			}
+		}
+	}
+}

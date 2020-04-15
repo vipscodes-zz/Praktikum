@@ -1,0 +1,14 @@
+package latihan4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Persistence {
+	public static List<Pemain> getAllPemain() {
+		List<Pemain> daftarPemain = new ArrayList<>();
+		
+		
+		return null;
+		
+	}
+}

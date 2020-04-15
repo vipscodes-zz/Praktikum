@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ac.ifunpas.uts.kplbo.avip_syaifulloh&apos; to &apos;UTS_KPLBO_Avip_Syaifulloh&apos;&#x0D;&#x0A;- Original element: &apos;ac.ifunpas.uts.kplbo.avip_syaifulloh&apos;&#x0D;&#x0A;- Renamed element: &apos;ac.ifunpas.uts.kplbo.avip_syaifulloh&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ac.ifunpas.uts.kplbo.avip_syaifulloh&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ac.ifunpas.uts.kplbo.avip_syaifulloh" name="UTS_KPLBO_Avip_Syaifulloh" references="true" stamp="1584680254150" version="1.0"/>
+</session>

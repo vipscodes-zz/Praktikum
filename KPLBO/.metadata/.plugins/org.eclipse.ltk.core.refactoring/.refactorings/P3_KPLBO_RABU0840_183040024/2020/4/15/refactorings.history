@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PertandinganMain.java&apos; to &apos;P4_KPLBO_RABU0840_183040024/src/latihan1&apos;&#x0D;&#x0A;- Original project: &apos;P3_KPLBO_RABU0840_183040024&apos;&#x0D;&#x0A;- Destination element: &apos;P4_KPLBO_RABU0840_183040024/src/latihan1&apos;&#x0D;&#x0A;- Original element: &apos;latihan5.PertandinganMain.java&apos;" description="Copy compilation unit" destination="=P4_KPLBO_RABU0840_183040024/src&lt;latihan1" element1="/src&lt;latihan5{PertandinganMain.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1586241316255" units="1" version="1.0"/>
+</session>

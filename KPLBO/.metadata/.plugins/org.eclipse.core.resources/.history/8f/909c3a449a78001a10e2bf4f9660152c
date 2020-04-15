@@ -1,0 +1,11 @@
+package latihan1;
+
+public class PertandinganMain {
+	public static void main(String[] args) {
+		Tim tim = new Tim("Persib");
+
+		
+		Pemain pemain = new Pemain("I Made", 1);
+		tim.tambahPemain(pemain);
+	}
+}

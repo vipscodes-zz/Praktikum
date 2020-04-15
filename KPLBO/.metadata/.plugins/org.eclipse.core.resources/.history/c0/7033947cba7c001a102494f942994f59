@@ -1,0 +1,7 @@
+package latihan1;
+
+public class GajiPelatih extends Gaji{
+	public GajiPelatih() {
+		super();
+	}
+}

@@ -1,0 +1,20 @@
+package latihan3;
+
+public class GajiPemain extends Gaji{
+	private int bonusMenang;
+	private int bonusGol;
+	
+	public GajiPemain() {
+		super();
+	}
+	
+	public GajiPemain(int gaji) {
+		super(gaji);
+	}	
+	
+	public GajiPemain(int gaji, int bonusMenang, int bonusGol) {
+		super(gaji);
+		this.bonusMenang = bonusMenang;
+		this.bonusGol = bonusGol; 
+	}
+}

@@ -1,0 +1,7 @@
+package latihan4;
+
+public class Persistence {
+	public static List<Pemain> getAllPemain() {
+		
+	}
+}
