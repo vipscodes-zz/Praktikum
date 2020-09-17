@@ -12,7 +12,7 @@ public class Operasi {
 	
 	public void displayElement() {
 		Node curNode = HEAD;
-		int counter = 1;
+		int counter = 0;
 		if (curNode == null) {
 			System.out.println("List kosong");
 		}

@@ -28,7 +28,7 @@ class Stack {
 		dataSize();
 	}
 	
-	public int pop() {
+	public char pop() {
 		Character temp = null;
 		if(isEmpty()) {
 			System.out.println("Stack masih kosong");

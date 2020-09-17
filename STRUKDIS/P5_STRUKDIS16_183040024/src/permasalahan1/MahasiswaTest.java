@@ -13,14 +13,13 @@ public class MahasiswaTest {
 		String nama;
 		String nrp;
 		char jenisKelamin;
-		while(pilihan != 5) {
+		while(pilihan != 3) {
 			System.out.println("==================");
 			System.out.println("Selamat Datang...");
 			System.out.println("Daftar Menu");
 			System.out.println("1. Tambah Data");
-			System.out.println("2. Jumlah data Stack");
-			System.out.println("3. Tampil Data");
-			System.out.println("5. Keluar");
+			System.out.println("2. Tampil Data");
+			System.out.println("3. Keluar");
 			System.out.print("Menu pilihan anda : ");
 			pilihan = sc.nextInt();
 			System.out.println("==================");
@@ -39,7 +38,7 @@ public class MahasiswaTest {
 							operasi.addData(mahasiswa);
 						}
 						 break;
-				case 3 : operasi.displayElement(); break;
+				case 2 : operasi.displayElement(); break;
 			}
 		}
 	}

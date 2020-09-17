@@ -1,7 +1,7 @@
-INDEX VERSION 1.131+E:\KULIAH\STRUKDIS\.metadata\.plugins\org.eclipse.jdt.core
-2372684269.index
-3021268141.index
-2588159277.index
-3904206765.index
-2842528100.index
+INDEX VERSION 1.131+E:\KULIAH\Praktikum\STRUKDIS\.metadata\.plugins\org.eclipse.jdt.core
 4288484205.index
+3021268141.index
+3904206765.index
+3519929069.index
+2588159277.index
+2372684269.index

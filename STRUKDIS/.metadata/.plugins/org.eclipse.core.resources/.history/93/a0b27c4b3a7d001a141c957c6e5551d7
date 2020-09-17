@@ -1,6 +1,0 @@
-package permasalahan2test;
-
-public class Operasi {
-	private Stack stack;
-	private input;
-}

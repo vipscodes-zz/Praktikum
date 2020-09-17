@@ -1,9 +1,0 @@
-package latihan1;
-
-public abstract class Gaji {
-	protected int gaji;
-	
-	public Gaji() {
-		gaji = 0;
-	}
-}
